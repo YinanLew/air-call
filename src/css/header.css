@@ -1,0 +1,32 @@
+header {
+  height: 40px;
+  margin: 0 auto;
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+header svg {
+  display: block;
+  width: 30%; height: 100%;
+}
+
+header a {
+  color:rgba(0, 0, 0, 0.5);
+	text-decoration: none;
+	display: inline-block;	
+	transition: color 0.5s;
+  font-size: large;
+  font-weight: 800;
+}
+
+header a.active, a.active:focus {
+  text-decoration: underline;
+  text-decoration-color: #ee491c;
+  color: black;
+  text-underline-offset: 2rem;
+  text-decoration-thickness: 3px;
+  }
